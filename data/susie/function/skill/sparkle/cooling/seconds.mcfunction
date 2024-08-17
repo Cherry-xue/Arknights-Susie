@@ -1,0 +1,1 @@
+clear @s bread[minecraft:custom_data={susie:sparkle,cooling_queue:1}] 1

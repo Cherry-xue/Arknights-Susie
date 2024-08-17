@@ -1,0 +1,5 @@
+scoreboard objectives add unit_damage_calculate dummy
+scoreboard objectives add unit_attack_frequency dummy
+scoreboard objectives add unit_multiplier dummy
+scoreboard players set 10 unit_damage_calculate 10
+function susie:calculate/unit_damage/multiplier

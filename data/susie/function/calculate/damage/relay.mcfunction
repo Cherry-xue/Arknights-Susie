@@ -1,0 +1,1 @@
+execute as @e[tag=susie_damage] at @s run function susie:calculate/damage/import with storage minecraft:susie damage

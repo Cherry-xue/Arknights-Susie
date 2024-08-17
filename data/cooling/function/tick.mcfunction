@@ -1,0 +1,1 @@
+execute as @a at @s run function cooling:queue/queue_1/tick

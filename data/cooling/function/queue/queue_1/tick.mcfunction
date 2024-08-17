@@ -1,0 +1,1 @@
+execute if entity @s[tag=cooling_queue_1] run function cooling:queue/queue_1/loop

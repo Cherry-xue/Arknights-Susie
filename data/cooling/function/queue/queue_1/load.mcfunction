@@ -1,0 +1,2 @@
+scoreboard objectives add cooling_queue_1 dummy
+scoreboard objectives add cooling_queue_1_seconds dummy
