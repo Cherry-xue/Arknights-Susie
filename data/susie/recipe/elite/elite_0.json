@@ -24,6 +24,16 @@
     },
     "result": {
         "id": "minecraft:nether_star",
-        "count": 1
+        "count": 1,
+        "components": {
+            "custom_data": {
+                "susie_elite": 0
+            },
+            "custom_name": "{\"text\":\"澄闪的信标\",\"color\":\"#FF97CF\"}",
+            "lore": [
+                "{\"text\":\"无意中发现的信标,或许有奇妙的力量?\",\"color\":\"#70DBDB\"}",
+                "{\"text\":\"右键使用\",\"color\":\"#00ff00\"}"
+            ]
+        }
     }
 }
