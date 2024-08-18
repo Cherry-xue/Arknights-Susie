@@ -1,0 +1,1 @@
+give @s carrot_on_a_stick[minecraft:food={can_always_eat:true,nutrition:20,saturation:20,eat_seconds:10}]

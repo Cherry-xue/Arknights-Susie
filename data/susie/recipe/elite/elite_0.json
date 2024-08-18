@@ -1,0 +1,29 @@
+{
+    "type": "crafting_shaped",
+    "group": "susie",
+    "category": "misc",
+    "show_notification": true,
+    "pattern": [
+        "010",
+        "020",
+        "030"
+    ],
+    "key": {
+        "0": {
+            "item": "minecraft:pink_dye"
+        },
+        "1": {
+            "item": "minecraft:lightning_rod"
+        },
+        "2": {
+            "item": "minecraft:diamond"
+        },
+        "3": {
+            "item": "minecraft:cooked_porkchop"
+        }
+    },
+    "result": {
+        "id": "minecraft:nether_star",
+        "count": 1
+    }
+}
