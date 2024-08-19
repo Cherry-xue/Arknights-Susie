@@ -23,17 +23,49 @@
         }
     },
     "result": {
-        "id": "minecraft:nether_star",
+        "id": "minecraft:bread",
         "count": 1,
         "components": {
-            "custom_data": {
-                "susie_elite": 0
-            },
             "custom_name": "{\"text\":\"澄闪的信标\",\"color\":\"#FF97CF\"}",
             "lore": [
                 "{\"text\":\"无意中发现的信标,或许有奇妙的力量?\",\"color\":\"#70DBDB\"}",
                 "{\"text\":\"右键使用\",\"color\":\"#00ff00\"}"
-            ]
+            ],
+            "food": {
+                "saturation": 20,
+                "nutrition": 20,
+                "can_always_eat": true,
+                "eat_seconds": 1.7,
+                "effects": [
+                    {
+                        "effect": {
+                            "id": "regeneration",
+                            "show_particles": false,
+                            "amplifier": 5,
+                            "duration": 5,
+                            "show_icon": false
+                        }
+                    }
+                ],
+                "using_converts_to": {
+                    "id": "minecraft:bread",
+                    "components": {
+                        "food": {
+                            "nutrition": 114,
+                            "saturation": 514,
+                            "eat_seconds": 999999999
+                        },
+                        "custom_data": {
+                            "susie": "elite_0"
+                        },
+                        "custom_name": "{\"text\":\"澄闪的信标\",\"color\":\"#FF97CF\"}",
+                        "lore": [
+                            "{\"text\":\"无意中发现的信标,或许有奇妙的力量?\",\"color\":\"#70DBDB\"}",
+                            "{\"text\":\"右键使用\",\"color\":\"#00ff00\"}"
+                        ]
+                    }
+                }
+            }
         }
     }
 }
