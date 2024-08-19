@@ -28,7 +28,6 @@ tag @e[tag=sparkle_locked_2] remove sparkle_locked_2
 tag @e[tag=sparkle_locked_3] remove sparkle_locked_3
 tag @e[tag=sparkle_locked] remove sparkle_locked
 
-#被动
 
 
 #浮游单元

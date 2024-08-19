@@ -1,1 +1,1 @@
-execute if entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{susie:elite_0}}}]}] run function susie:level_up/elite/elite_0
+execute if entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{susie:elite_0}}}]}] run function susie:level_up/elite_0/decide
